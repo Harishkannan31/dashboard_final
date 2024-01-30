@@ -1,0 +1,161 @@
+/* color code for theme #FFC2C2 */
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+/* .logo{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    left: 60px;
+    
+} */
+.Dashboard{
+    position: relative;
+    left: 40px;
+    
+}
+.searchbar{
+    position: relative;
+    left: 100px;
+    width: 350px;
+    border: 0px white;
+    border-radius: 20px;
+}
+.profile_icon{
+    position: relative;
+    left: 80px;
+}
+.user_dropdown{
+    height: 30px;
+    width: 80px;
+    
+    border: 1px white ;
+    background-color: rgb(233, 232, 231);
+    border-radius: 5px;
+}
+/* .vertical_navbar{
+    margin-left: 100px;
+} */
+.ver_nav>p{
+    margin-left: 20px;
+}
+header{
+    margin-left: 0px;
+}
+.vernav_text{
+    margin-left: 20px;
+}
+.box-container { 
+    display: flex; 
+    justify-content: space-evenly; 
+    align-items: center; 
+    flex-wrap: wrap; 
+    gap: 50px; 
+  } 
+
+.box1,.box2,.box3,.box4{
+    background-color: #fff3f3;
+    border: 5px solid  #fff3f3;
+    border-radius: 5px;
+    height: 150px;
+    
+}
+.text{
+    padding: 30px;
+    padding-left: 10px;
+    padding-right: 50px;
+}
+.main_section{
+    display: flex;
+    align-items: flex-start;
+    gap: 50px;
+    /* flex-direction: column; */
+}
+.navfooter{
+    width: 220px;
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+    border: 2px;
+    border-radius: 5px;
+    background-color: #fff3f3;
+    
+}
+.navfooter_button{
+    width: 170px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #FFC2C2;
+    padding: 6px;
+}
+
+.whole_grid{
+    display: grid;
+}
+
+/* .chart{
+    display: grid;
+    grid-row: 3/5;
+    
+    grid-template-columns: 1fr;
+} */
+.chart_title{
+    display: block;
+    /* align-items: flex-start;
+    justify-content: flex-start; */
+    position: relative;
+    /* left: -10px; */
+    top: -100px;
+    width: 600px;
+    background-color:  #fff3f3;
+    padding: 10px;
+
+}
+.dropdown{
+   margin-left: 200px;
+   margin-top: 0px;
+   
+}
+.drop{
+    background-color:#fff3f3;
+    border: 1px solid #fff3f3;
+    border-radius: 5px;
+    padding: 0px;
+}
+.footbox1,.footbox2{
+    background-color:#fff3f3;
+    
+}
+.foot{
+    position: relative;
+    top: -100px;
+    left: 50px;
+    
+}
+.sidecard{
+    display: flex;
+    
+}
+.rightside_card{
+    margin-top: 0px;
+    margin-bottom: 125px;
+    height: 400px;
+    left: -30px;
+    top: -10px;
+    background-color:#fff3f3
+}
+.newcard_button{
+    margin-left: 25px;
+    width: 200px;
+    background-color: #FFC2C2;
+}
+.footbox1{
+    top: -50px;
+    left: +10px;
+}
+.footbox2{
+    display: flex;
+    justify-content: stretch;
+}
